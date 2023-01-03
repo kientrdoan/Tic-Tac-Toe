@@ -1,9 +1,9 @@
-"""
-gird: Ma tran 3x3 dai dien cho ban co
-choice: Dai dien cho 9 vi tri danh cua ma tran 3x3 gird
-"""
 class Board:
     def __init__(self):
+        """
+        gird: Ma tran 3x3 dai dien cho ban co
+        choice: Dai dien cho 9 vi tri danh cua ma tran 3x3 gird
+        """
         self.gird = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
         self.choice = [(0,0), (0,1), (0,2), (1, 0), (1, 1), (1, 2), (2, 0), (2, 1), (2, 2)]
     
