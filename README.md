@@ -20,6 +20,6 @@ sau khi đã hoàn thành các bước cài đặt cần thiết ở trên, ta s
 ## Chạy chương trình
 - Bước 1: Tải đồ án về máy.
 
-- Bước 2: Load folde Tic-Tac-Toe vào IDE.
+- Bước 2: Load folder Tic-Tac-Toe vào IDE.
 
 - Bước 3: Run file Main.py
