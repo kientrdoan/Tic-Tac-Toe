@@ -40,7 +40,7 @@ class Computer:
             for j in range(len(board_obj.gird[i])):
                 if(board_obj.is_mark_square(i,j)):
                     board_obj.mark_square(i, j, self.bot)
-                    score = self.minimax(board_obj.gird, 0, False, i, j, board_obj)
+                    score = self.minimax(board_obj.gird, False, i, j, board_obj)
                     board_obj.gird[i][j] = 0
                     if(score > best_score):
                         best_score = score
@@ -54,7 +54,7 @@ class Computer:
             return False
         return True
 
-    def minimax(self, gird, depth, is_maximizing, row, col, board_obj):
+    def minimax(self, gird, is_maximizing, row, col, board_obj):
     
         if board_obj.check_win(row, col, self.bot):
             return 100
@@ -70,7 +70,7 @@ class Computer:
                 for j in range(len(board_obj.gird[i])):
                     if(board_obj.is_mark_square(i,j)):
                         board_obj.mark_square(i, j, self.bot)
-                        score = self.minimax(board_obj.gird, depth+1, False, i, j, board_obj)
+                        score = self.minimax(board_obj.gird, False, i, j, board_obj)
                         board_obj.gird[i][j] = 0
                         if(score > best_score):
                             best_score = score
@@ -82,7 +82,7 @@ class Computer:
                 for j in range(len(board_obj.gird[i])):
                     if(board_obj.is_mark_square(i,j)):
                         board_obj.mark_square(i, j, self.player)
-                        score = self.minimax(board_obj.gird, depth +1, True, i, j, board_obj)
+                        score = self.minimax(board_obj.gird, True, i, j, board_obj)
                         board_obj.gird[i][j] = 0
                         if(score < best_score):
                             best_score = score
