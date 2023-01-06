@@ -10,6 +10,7 @@
 - [Hệ điều hành Windows](https://www.geeksforgeeks.org/how-to-install-python-on-windows/).
 - [Hệ điều hành Linux](https://www.geeksforgeeks.org/how-to-install-python-on-linux/).
 - [Hệ điều hành MacOS](https://www.geeksforgeeks.org/how-to-download-and-install-python-latest-version-on-macos-mac-os-x/).
+
 Sau khi đã cài đặt và kiểm tra python đã được cài vào máy hay chưa thì ta sẽ tiến đến bước tiếp theo, đó là tải pygame về máy để có thể chạy được chương trình.
 ## Tải pygame về máy
 Đây cũng chính là phần quan trọng nhất của chương trình, nên ta cần phải tải pygame về máy tương ứng với hệ điều hành theo các hướng dẫn sau:
