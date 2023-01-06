@@ -16,6 +16,7 @@ Sau khi đã cài đặt và kiểm tra python đã được cài vào máy hay 
 - [Hệ điều hành Windows](https://www.geeksforgeeks.org/how-to-install-pygame-in-windows/)
 - [Hệ điều hành Linux](https://www.geeksforgeeks.org/install-pygame-in-linux/)
 - [Hệ điều hành MacOS](https://www.geeksforgeeks.org/install-pygame-in-macos/)
+
 sau khi đã hoàn thành các bước cài đặt cần thiết ở trên, ta sẽ tải toàn bộ source code về máy. Bằng cách tải theo file zip, ta sẽ giải nén file đó ra một folder và chuẩn bị cho bước tiếp theo.
 ## Chạy chương trình
 - Bước 1: Tải đồ án về máy.
