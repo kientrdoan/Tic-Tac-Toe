@@ -32,7 +32,7 @@ class Computer:
     #-------AI--------
     def AI_MOVE(self, game, board_obj):
         best_score = -100
-        best_move = []
+        best_move = [0, 0]
         if board_obj.check_gird():
             return False
 
@@ -44,8 +44,8 @@ class Computer:
                     board_obj.gird[i][j] = 0
                     if(score > best_score):
                         best_score = score
-                        best_move.append(i)
-                        best_move.append(j)
+                        best_move[0] = i
+                        best_move[1] = j
         board_obj.gird[best_move[0]][best_move[1]] = self.bot
         game.draw_maker(best_move[0], best_move[1], self.bot)
         if board_obj.check_win(best_move[0], best_move[1], self.bot):
